@@ -14,6 +14,9 @@ import java.util.List;
 @Service
 public class AdminService {
 
+    //Only for check
+    private AdminRepository adminReposory;
+
     @Autowired
     private AdminRepository adminRepository;
     @Autowired
